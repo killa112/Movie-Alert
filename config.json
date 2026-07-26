@@ -1,7 +1,7 @@
 {
   "detector": "venue_date",
   "movie": "The Odyssey (IMAX 2D)",
-  "requested_date": "20260722",
+  "requested_date": "20260727",
   "venue_code": "INPR",
   "venue_label": "INOX: LUXE Phoenix Market City, Velachery",
   "url_template": "https://in.bookmyshow.com/movies/hyderabad/the-odyssey/buytickets/ET00504055/{date}",
