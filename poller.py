@@ -155,7 +155,7 @@ def fetch(cfg):
         cfg["target_url"],
         timeout=30,
         proxies=proxies,
-        headers={"Referer": "https://in.bookmyshow.com/explore/movies-chennai"},
+        headers={"Referer": "https://in.bookmyshow.com/explore/movies-hyderabad"},
     )
     resp.raise_for_status()
     return resp.text
@@ -193,7 +193,7 @@ def is_available_venue_date(page_text, cfg):
     Theatre-specific detector: is a given venue bookable on a given date?
 
     BMS renders a per-venue booking link like
-        /cinemas/chennai/<slug>/buytickets/<venueCode>/<date>
+        /cinemas/hyderabad/<slug>/buytickets/<venueCode>/<date>
     only when that venue has live shows for that exact date. Because the date
     is baked into the link, it can't be confused with the silent fallback
     (a fallback page carries /<code>/<fallbackDate>, not /<code>/<ourDate>).
