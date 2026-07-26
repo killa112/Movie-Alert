@@ -1,7 +1,7 @@
 {
   "detector": "venue_date",
   "movie": "The Odyssey (IMAX 2D)",
-  "requested_date": "20260728",
+  "requested_date": "20260730",
   "venue_code": "ALUC",
   "venue_label": "Allu Cinemas - Dolby Cinema & Cineplex",
   "url_template": "https://in.bookmyshow.com/movies/hyderabad/the-odyssey/buytickets/ET00504055/{date}",
