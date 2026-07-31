@@ -1,4 +1,4 @@
-name: booking-watch
+name: dune-booking-watch
 
 on:
   # schedule:
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: booking-watch
+  group: dune-booking-watch
   cancel-in-progress: false
 
 jobs:
@@ -45,7 +45,7 @@ jobs:
             git config user.name "booking-watch-bot"
             git config user.email "actions@users.noreply.github.com"
             git add state.json
-            git commit -m "chore: update booking-watch state [skip ci]"
+            git commit -m "chore: update dune-booking-watch state [skip ci]"
             git push
           else
             echo "No state change."
