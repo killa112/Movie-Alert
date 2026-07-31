@@ -1,9 +1,9 @@
 {
   "detector": "venue_date",
-  "movie": "Spider-Man: Brand New Day",
-  "requested_date": "20260811",
-  "venue_code": "AMBH",
-  "venue_label": "Sarath City Capital Mall, Kondapur",
-  "url_template": "https://in.bookmyshow.com/movies/hyd/seat-layout/ET00447840/AMBH/115873/{date}",
+  "movie": "Dune: Part Three",
+  "requested_date": "20261218",
+  "venue_code": "PRHN",
+  "venue_label": "Prasads: Multiplex, Hyderabad",
+  "url_template": "https://in.bookmyshow.com/movies/hyd/seat-layout/ET00491771/PRHN/254193/{date}",
   "min_references": 10
 }
